@@ -198,14 +198,23 @@
   <div class="container">
     <h2 class="heading-text">Get In Touch</h2>
     <div class="width-100">
-      <form>
-        <input type="text" placeholder="Full Name...">
-        <input type="text" placeholder="Full Email Id...">
-        <input type="text" placeholder="Full Mobile No...">
-        <textarea placeholder="Enter Address...">
-        </textarea>
-        <button type="submit">Submit</button>
-      </form>
+      <form
+	action="https://formie.io/form/7b5e335e-89e5-4836-a3a9-2bc5777241dd"
+	method="POST"
+>
+    <!-- Optional: Redirect to your success page -->
+    <input name="_redirect" type="hidden" value="https://yoursite/success">
+
+    <!-- Optional: Redirect to your error page -->
+    <input name="_redirect_error" type="hidden" value="https://yoursite/error">
+
+	<input name='fullname' type='text'>
+	<input name='email' type='email'>
+	<input name='mobileno' type='text'>
+	<textarea name='textarea'></textarea>
+
+    <button>Submit</button>
+</form>
     </div>
     
   </div>
